@@ -9,7 +9,8 @@ class WartoscLiczbowa {
 public:
   virtual double modul() = 0;
   virtual void wypisz(std::ostream &out) = 0;
-  virtual ~WartoscLiczbowa() {}
+  virtual ~WartoscLiczbowa() {
+  }
 };
 
 class Liczba : public WartoscLiczbowa {
